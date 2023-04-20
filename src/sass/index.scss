@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.section-list {
+  width: 26rem;
+  list-style: none;
+}
+
+.section-list-1 {
+  border: 2px solid #000;
+  padding: 6px;
+}
+
+.section-list-2,
+.section-list-3 {
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  border-bottom: 2px solid #222;
+  padding: 6px;
+}
+
+.textarea-codigo {
+  width: 23rem;
+  resize: none;
+}
